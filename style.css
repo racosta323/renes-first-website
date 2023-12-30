@@ -1,3 +1,33 @@
-div.container{
+header > div.container{
     padding:40px;
+}
+
+td.spacing{
+    padding:30px;
+}
+
+table.container{
+    margin-left: 50px;
+}
+
+th{
+    font-size: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+table#align{
+    margin-left: -15px;
+}
+
+p{
+    font-family:sans-serif;
+    font-size:large;
+}
+
+tr{
+    display:block;
+    text-align: left;
 }
