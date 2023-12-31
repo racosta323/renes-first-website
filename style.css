@@ -1,4 +1,4 @@
-header > div.container{
+/* header > div.container{
     padding:40px;
 }
 
@@ -14,9 +14,7 @@ th{
     font-size: 20px;
 }
 
-img{
-    border-radius: 50%;
-}
+
 
 table#align{
     margin-left: -15px;
@@ -30,4 +28,69 @@ p{
 tr{
     display:block;
     text-align: left;
+} */
+
+html{
+    width: 1200px;
+    margin:auto;
+    padding: 15px;
+    max-width: 100%;
+}
+
+main,
+footer{
+    display:flex;
+    margin-left:40px;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+}
+
+.bar{
+    display: flex;
+    border-bottom: 1px solid #888;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+.bar li{
+    font-size:larger;
+    padding-right: 50px;
+}
+
+/*taken from above*/
+img{
+    border-radius: 50%;
+}
+
+
+/*creating the two-column layout*/
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    display:flex;
+    padding-top:20px;
+}
+
+.post-text-box{
+
+    padding: 20px;
+}
+
+.about{
+    flex:70%;
+    padding: 20px;
+}
+
+.about p{
+    font-size: x-large;
 }
